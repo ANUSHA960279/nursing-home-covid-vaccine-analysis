@@ -1,11 +1,43 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-*.ipynb_checkpoints
-.env
+*$py.class
+
+# Virtual environments
+.env/
 .venv/
-*.csv
-*.xlsx
-*.pkl
-*.joblib
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment variable files
+.env
+
+# System files
 .DS_Store
 Thumbs.db
+
+# IDE/project settings
+.vscode/
+.idea/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# Output files
+*.xlsx
+*.csv
+*.pkl
+*.h5
+*.zip
+
+# Reports or results not part of source
+*.pdf
+*.docx
+
+# Data cache or models
+__results__/
+models/
