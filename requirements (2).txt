@@ -1,9 +1,7 @@
 pandas
 numpy
+scikit-learn
 matplotlib
 seaborn
-scikit-learn
-xgboost
-prophet
-statsmodels
-jupyter
+openpyxl  # For reading .xlsx Excel files
+
